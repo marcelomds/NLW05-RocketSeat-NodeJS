@@ -1,7 +1,6 @@
 import {Request, Response} from "express";
 import {MessagesService} from "../services/MessagesService";
 
-
 class MessagesController {
 
     async create(req: Request, res: Response) {
